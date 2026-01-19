@@ -9,4 +9,4 @@ vim.keymap.set("i", "jk", "<Esc>", { noremap = true, silent = true })
 vim.keymap.set("n", ";", ":", { noremap = true, silent = false })
 
 -- Press Esc to leave terminal insert mode
-vim.keymap.set("t", "<Esc>", [[<C-\><C-n>]], { desc = "Exit terminal mode" }) -- Press Esc to leave terminal insert mode
+vim.keymap.set("t", "<Esc><Esc>", [[<C-\><C-n>]], { desc = "Exit terminal mode" }) -- Press Esc twice to leave terminal insert mode
